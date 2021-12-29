@@ -1,0 +1,16 @@
+C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios.DAL\bin\Debug\netcoreapp3.1\Gerenciador_Condominios.DAL.deps.json
+C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios.DAL\bin\Debug\netcoreapp3.1\Gerenciador_Condominios.DAL.runtimeconfig.json
+C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios.DAL\bin\Debug\netcoreapp3.1\Gerenciador_Condominios.DAL.runtimeconfig.dev.json
+C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios.DAL\bin\Debug\netcoreapp3.1\Gerenciador_Condominios.DAL.dll
+C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios.DAL\bin\Debug\netcoreapp3.1\Gerenciador_Condominios.DAL.pdb
+C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios.DAL\bin\Debug\netcoreapp3.1\Gerenciador_Condominios.BLL.dll
+C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios.DAL\bin\Debug\netcoreapp3.1\Gerenciador_Condominios.BLL.pdb
+C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios.DAL\obj\Debug\netcoreapp3.1\Gerenciador_Condominios.DAL.csproj.AssemblyReference.cache
+C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios.DAL\obj\Debug\netcoreapp3.1\Gerenciador_Condominios.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios.DAL\obj\Debug\netcoreapp3.1\Gerenciador_Condominios.DAL.AssemblyInfoInputs.cache
+C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios.DAL\obj\Debug\netcoreapp3.1\Gerenciador_Condominios.DAL.AssemblyInfo.cs
+C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios.DAL\obj\Debug\netcoreapp3.1\Gerenciador_Condominios.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios.DAL\obj\Debug\netcoreapp3.1\Gerenciador_Condominios.DAL.csproj.CopyComplete
+C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios.DAL\obj\Debug\netcoreapp3.1\Gerenciador_Condominios.DAL.dll
+C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios.DAL\obj\Debug\netcoreapp3.1\Gerenciador_Condominios.DAL.pdb
+C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios.DAL\obj\Debug\netcoreapp3.1\Gerenciador_Condominios.DAL.genruntimeconfig.cache
