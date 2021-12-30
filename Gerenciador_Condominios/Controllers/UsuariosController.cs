@@ -61,6 +61,7 @@ namespace Gerenciador_Condominios.Controllers
                     usuario.UserName = model.Nome;
                     usuario.CPF = model.CPF;
                     usuario.Email = model.Email;
+                    usuario.Foto = model.Foto;
                     usuario.PhoneNumber = model.Telefone;
                     usuario.PrimeiroAcesso = false;
                     usuario.Status = StatusConta.Aprovado;
@@ -78,6 +79,7 @@ namespace Gerenciador_Condominios.Controllers
                 usuario.UserName = model.Nome;
                 usuario.CPF = model.CPF;
                 usuario.Email = model.Email;
+                usuario.Foto = model.Foto;
                 usuario.PhoneNumber = model.Telefone;
                 usuario.PrimeiroAcesso = false;
                 usuario.Status = StatusConta.Analisando;
