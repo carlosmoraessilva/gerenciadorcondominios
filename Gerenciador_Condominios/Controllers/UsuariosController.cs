@@ -105,6 +105,11 @@ namespace Gerenciador_Condominios.Controllers
             return View(model);
         }
 
+        public IActionResult Login()
+        {
+            return View();
+        }
+
         public IActionResult Analise(string nome)
         {
             return View(nome);
