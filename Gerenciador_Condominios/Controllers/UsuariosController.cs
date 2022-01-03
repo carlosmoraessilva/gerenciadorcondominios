@@ -24,9 +24,9 @@ namespace Gerenciador_Condominios.Controllers
             _usuarioRepositorio = usuarioRepositorio;
             _webHostEnviroment = webHostEnvironment;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            return View(await _usuarioRepositorio.PegarTodos());
         }
 
         [HttpGet]

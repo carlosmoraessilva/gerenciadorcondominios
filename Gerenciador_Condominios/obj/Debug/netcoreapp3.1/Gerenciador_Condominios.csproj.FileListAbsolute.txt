@@ -153,5 +153,5 @@ C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios\obj
 C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios\obj\Debug\netcoreapp3.1\Gerenciador_Condominios.pdb
 C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios\obj\Debug\netcoreapp3.1\Gerenciador_Condominios.genruntimeconfig.cache
 C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Logout.cshtml.g.cs
-C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\Index.cshtml.g.cs
 C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\Reprovado.cshtml.g.cs
+C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\Index.cshtml.g.cs
