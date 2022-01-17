@@ -273,7 +273,10 @@ namespace Gerenciador_Condominios.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-
+        public async Task<IActionResult> MinhasInformacoes()
+        {
+            return View(await _usuarioRepositorio.PegarUsuarioPeloNome(User));
+        }
             
         }
     }
