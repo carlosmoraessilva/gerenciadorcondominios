@@ -157,3 +157,4 @@ C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios\obj
 C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios\obj\Debug\netcoreapp3.1\Gerenciador_Condominios.pdb
 C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios\obj\Debug\netcoreapp3.1\Gerenciador_Condominios.genruntimeconfig.cache
 C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\MinhasInformacoes.cshtml.g.cs
+C:\Users\Carlos\source\repos\Gerenciador_Condominios\Gerenciador_Condominios\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\Atualizar.cshtml.g.cs

@@ -172,5 +172,18 @@ namespace Gerenciador_Condominios.DAL.Repositorios
                 throw ex;
             }
         }
+
+        public async Task<Usuario> PegarUsuarioPeloId(string usuarioId)
+        {
+            try
+            {
+                return await _gerenciadorUsuarios.FindByNameAsync(usuarioId);
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
     }
 }

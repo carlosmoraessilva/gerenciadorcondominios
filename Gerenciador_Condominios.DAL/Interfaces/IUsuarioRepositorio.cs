@@ -26,5 +26,6 @@ namespace Gerenciador_Condominios.DAL.Interfaces
         Task<IdentityResult> RemoverFuncoesUsuario(Usuario usuario, IEnumerable<string> funcoes);
         Task<IdentityResult> IncluirFuncoesUsuario(Usuario usuario, IEnumerable<string> funcoes);
         Task<Usuario> PegarUsuarioPeloNome(ClaimsPrincipal usuario);
+        Task<Usuario> PegarUsuarioPeloId(string usuarioId);
     }
 }

@@ -12,6 +12,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
+
 namespace Gerenciador_Condominios.Controllers
 {
     
@@ -277,6 +278,79 @@ namespace Gerenciador_Condominios.Controllers
         {
             return View(await _usuarioRepositorio.PegarUsuarioPeloNome(User));
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Atualizar(string id)
+        {
+            Usuario usuario = await _usuarioRepositorio.PegarPeloId(id);
+
+            if (usuario == null)
+                return NotFound();
+
+            AtualizarViewModel model = new AtualizarViewModel
+            {
+                UsuarioId = usuario.Id,
+                Nome = usuario.UserName,
+                CPF = usuario.CPF,
+                Email = usuario.Email,
+                Foto = usuario.Foto,
+                Telefone = usuario.PhoneNumber
+
+            };
+
+            TempData["Foto "] = usuario.Foto;
+
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+
+        public async Task<IActionResult> Atualizar(AtualizarViewModel viewModel, IFormFile foto)
+        {
+            if (ModelState.IsValid)
+            {
+                if (foto != null)
+                {
+                    string diretorioPasta = Path.Combine(_webHostEnviroment.WebRootPath, "Imagens");
+                    string nomeFoto = Guid.NewGuid().ToString() + foto.FileName;
+
+                    using (FileStream fileStream = new FileStream(Path.Combine(diretorioPasta, nomeFoto), FileMode.Create))
+                    {
+                        await foto.CopyToAsync(fileStream);
+                        viewModel.Foto = "~/Imagens/" + nomeFoto;
+                    }
+                }
+
+                else
+                    viewModel.Foto = TempData["Foto"].ToString();
+
+                Usuario usuario = await _usuarioRepositorio.PegarUsuarioPeloId(viewModel.UsuarioId);
+                usuario.UserName = viewModel.Nome;
+                usuario.CPF = viewModel.CPF;
+                usuario.PhoneNumber = viewModel.Telefone;
+                usuario.Foto = viewModel.Foto;
+                usuario.Email = viewModel.Email;
+
+
+                await _usuarioRepositorio.AtualizarUsuario(usuario);
+
+                if(await _usuarioRepositorio.VerificarSeUsuarioEstaEmFuncao(usuario, "Administrador") ||
+                    await _usuarioRepositorio.VerificarSeUsuarioEstaEmFuncao(usuario, "Sindico"))
+                {
+                    return RedirectToAction(nameof(Index));
+                }
+                else
+                
+                    return RedirectToAction(nameof(MinhasInformacoes));
+                
+
+            }
+
+            return View(viewModel);
+        }
+
+       
             
         }
     }
